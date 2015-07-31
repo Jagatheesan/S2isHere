@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:id="@+id/detailDualPane"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/emptyPane"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="@string/select_movie"
+        android:fontFamily="sans-serif-light"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="loading_movies">Loading Movies…</string>
+    <string name="api_key">ENTER_API_KEY</string>
+    <string name="popularity">Most Popular Movies</string>
+    <string name="rating">Highest Rated Movies</string>
+    <string name="fav_string">Favorite Movies</string>
+    <string name="movie_activity_title">Movie Details</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_internet">No Internet Connection available!</string>
+    <string name="trailer_title">Trailers on YouTube</string>
+    <string name="comments_header">Reviews</string>
+    <string name="select_movie">Select a movie to view details</string>
+    <string name="share_action">Share Trailer</string>
+    <string name="no_trailers">No trailers available to share.</string>
+    <string name="no_favs_yet">You have not Favorited any movie yet!</string>
+</resources>

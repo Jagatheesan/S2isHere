@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\classes-0f56c330950c9186fb17955c9be933c70c130d46.jar" />
+    </item>
+    <item
+        jar="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-a4d05518b9d1f518541e34835f3624f13577c121.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\gradle-2.2.1\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\glide-3.6.0-75b975d944486c59a47540e9c000201889c1b640.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\gradle-2.2.1\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\gson-2.3.1-4236ec3a18afdf74d782c29dcfc670a0e7b84fd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\dell\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-826d16471773c1ccf8b3526d302056d1661977b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\classes-5b9576a17fbe4c25a0f056249b5e202a6fb732a4.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\gradle-2.2.1\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\dell\AndroidStudioProjects\PopularMovies\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-f6b91b767b34546a9a8674c609e4d7b3a7f1e8ca.jar" />
+    </item>
+
+</items>

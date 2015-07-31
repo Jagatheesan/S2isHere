@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/movieDetailsFragmentHolder"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/detailScroller"
+        android:layout_marginTop="16dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/detailHolder"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/moreDetail"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:id="@+id/posterDetail"
+            android:layout_height="222dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/timings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:background="@color/green"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="right"
+                android:id="@+id/release"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:background="@color/green"
+                android:id="@+id/vote"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="right"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:background="@color/green"
+                android:id="@+id/fav"
+                android:padding="10dp"
+                android:layout_gravity="right"
+                android:layout_height="38dp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/overview"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/trailersHeader"
+            android:visibility="gone"
+            android:background="@color/alizarin"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="@string/trailer_title"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/trailersHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                android:id="@+id/reviewsHeader"
+                android:background="@color/sunflower"
+                android:text="@string/comments_header"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:id="@+id/reviewsHolder"
+                android:layout_height="wrap_content"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:id="@+id/gridHolder"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:id="@+id/moviesFragment"
+        android:layout_weight="60"
+        android:layout_width="0dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <FrameLayout
+        android:id="@+id/landscapeDetailsFragment"
+        android:layout_width="0dp"
+        android:layout_weight="40"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+</LinearLayout>
